@@ -8,6 +8,9 @@ public class Homework2 {
         String firstName = "Stiliyana";
         String lastName = "Yaneva";
 
+        String switchName = ("Your name is <myname> ");
+        System.out.println( switchName.replace("<myname>", firstName));
+
         System.out.println("My name is " + firstName);
 
         System.out.println(testString.equals(testString + nameString));
