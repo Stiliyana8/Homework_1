@@ -1,7 +1,5 @@
 package Homework5;
 
-import oop.Breed;
-
 public class Pet implements PetActions{
     private boolean hasTail;
     private String name;
@@ -86,11 +84,11 @@ public class Pet implements PetActions{
 
     }
     public void printData(){
-        System.out.printf("This cat's name is %s.%nThis cat's age is %d.%nThis cat's breed is %s.%n", name, age, breed);
+        System.out.printf("This pet's name is %s.%nThis pet's age is %d.%nThis pet's breed is %s.%nThis pet's barcode is %d.%nThis pet's address is ", name, age, breed.getBreedName(), barcode, address.getCity());
         if(hasTail){
-            System.out.println("This cat has tail.");
+            System.out.println("This pet has tail.");
         }else{
-            System.out.println("This cat doesn't have tail.");
+            System.out.println("This pet doesn't have tail.");
         }
     }
 

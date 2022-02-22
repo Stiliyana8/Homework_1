@@ -1,7 +1,5 @@
 package Homework5;
 
-import oop.Breed;
-
 public class Test {
     public static void main(String[] args) {
 

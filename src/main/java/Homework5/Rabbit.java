@@ -1,7 +1,5 @@
 package Homework5;
 
-import oop.Breed;
-
 public class Rabbit extends Pet{
 
     public Rabbit(boolean hasTail, String name, int age, Breed breed, int barcode, Address address) {
